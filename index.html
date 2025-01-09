@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Countdown Timer</h1>
+      <p>Select your target date and time:</p>
+
+      <!-- Timer Title Input -->
+      <input
+        type="text"
+        id="timerTitle"
+        placeholder="Enter a title for your event (e.g., My Birthday)"
+      />
+
+      <!-- Special Event Dropdown -->
+      <select id="eventSelect">
+        <option value="birthday">Birthday</option>
+        <option value="anniversary">Anniversary</option>
+        <option value="dueDate">Due Date</option>
+        <option value="holiday">Holiday</option>
+        <option value="cookerTimer">Cooker Timer</option>
+        <option value="christmasEve">Christmas Eve</option>
+        <option value="christmas">Christmas</option>
+        <option value="easter">Easter</option>
+        <option value="new-year">New Year</option>
+        <option value="valentines">Valentine's Day</option>
+        <option value="halloween">Halloween</option>
+        <option value="mothersDay">Mother's Day</option>
+        <option value="fathersDay">Father's Day</option>
+        <option value="thanksgiving">Thanksgiving</option>
+        <option value="weddingDay">Wedding Day</option>
+        <option value="remembranceSunday">Remembrance Sunday</option>
+        <option value="custom">Custom Event</option>
+      </select>
+
+      <!-- Date and Time input fields -->
+      <input type="datetime-local" id="datetimeInput" />
+
+      <button onclick="startCountdown()">Start Countdown</button>
+
+      <!-- Event Title Display -->
+      <div id="eventTitle"></div>
+
+      <!-- Countdown Timer Display -->
+      <div id="timer"></div>
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+  </body>
+</html>

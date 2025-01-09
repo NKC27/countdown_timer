@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  background-image: url('https://cdn.pixabay.com/photo/2020/02/11/10/24/lake-4839058_1280.jpg');
+  background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px #4a4a4a;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    color: #ffffff;
+    
+}
+
+.countdown-el {
+    text-align: center;
+    color: rgb(207, 5, 136);
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+    color: black;
+} */
+/* ------------------------------------- */
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            background-image: url('https://cdn.pixabay.com/photo/2020/02/11/10/24/lake-4839058_1280.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+         /* Center Container for Timer */
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Heading Styles */
+        h1 {
+            color: #0b8da4;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* Instructions Text */
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Input and Button Styles */
+        input[type="text"], input[type="datetime-local"], select {
+            font-size: 16px;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            width: 100%;
+            margin-top: 15px;
+            background-color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="datetime-local"]:focus, select:focus {
+            outline: none;
+            border-color: #0b8da4;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+        }
+
+        button {
+            background-color: #0b8da4;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #04426b;
+        }
+
+        /* Timer Display Styles */
+        #timer {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 25px;
+            color: #333;
+        }
+
+        /* Event Title Styling */
+        #eventTitle {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+            color: #333;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            input[type="text"], input[type="datetime-local"], select, button {
+                padding: 10px;
+            }
+        }
+
+        /* Confetti  */
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 9999;
+        }
