@@ -6,55 +6,7 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background-image: url('https://cdn.pixabay.com/photo/2020/02/11/10/24/lake-4839058_1280.jpg');
-  background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 4rem;
-    margin-top: 5rem;
-    color: #ffffff;
-    text-shadow: 2px 2px #4a4a4a;
-}
-
-.countdown-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.big-text {
-    font-weight: bold;
-    font-size: 6rem;
-    line-height: 1;
-    margin: 1rem 2rem;
-    color: #ffffff;
-    
-}
-
-.countdown-el {
-    text-align: center;
-    color: rgb(207, 5, 136);
-    font-size: 2rem;
-    font-weight: bold;
-    
-}
-
-.countdown-el span {
-    font-size: 1.3rem;
-    color: black;
-} */
-/* ------------------------------------- */
- body {
+body {
             font-family: 'Poppins', sans-serif;
             background-color: #f0f2f5;
             background-image: url('https://cdn.pixabay.com/photo/2020/02/11/10/24/lake-4839058_1280.jpg');
