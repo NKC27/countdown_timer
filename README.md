@@ -12,7 +12,7 @@ A simple web-based countdown timer that allows users to input a target date and 
 
 ## Demo
 
-You can see a live demo of the countdown timer by visiting [this link](#).
+You can see a live demo of the countdown timer by visiting [this link](https://nkc27.github.io/countdown_timer/).
 
 ## Technologies Used
 
@@ -71,11 +71,11 @@ Or just double-click the `index.html` file in your file explorer to open it in y
 
 ### Desktop View:
 
-![Desktop Screenshot](assets/screenshots/desktop-view.png)
+![Desktop Screenshot](/screenshot.jpg)
 
 ### Mobile View:
 
-![Mobile Screenshot](assets/screenshots/mobile-view.png)
+![Mobile Screenshot](/mobilescreenshot.jpg)
 
 ## Code Structure
 
