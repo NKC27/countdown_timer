@@ -1,4 +1,4 @@
-# Countdown Timer with Confetti
+# Countdown Timer
 
 A simple web-based countdown timer that allows users to input a target date and time, choose an event type, and display the time remaining. This project uses HTML, CSS, and JavaScript.
 
@@ -7,7 +7,6 @@ A simple web-based countdown timer that allows users to input a target date and 
 - Input a custom event title or choose from a list of predefined events (e.g., Birthday, Anniversary, Christmas, etc.).
 - Select a target date and time for the countdown.
 - Real-time countdown display that updates every second.
-- Confetti explosion when the countdown reaches zero.
 - Fully responsive design for mobile and desktop devices.
 
 ## Demo
@@ -18,7 +17,7 @@ You can see a live demo of the countdown timer by visiting [this link](https://n
 
 - **HTML**: Markup for creating the structure of the page.
 - **CSS**: Styling the page and the input elements.
-- **JavaScript**: Logic for countdown timer functionality and triggering the confetti effect.
+- **JavaScript**: Logic for countdown timer functionality.
 
 ## Installation
 
@@ -32,11 +31,11 @@ Make sure you have a web browser installed on your machine to view the project. 
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/countdown-timer-with-confetti.git
+   git clone https://github.com/your-username/countdown-timer.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd countdown-timer-with-confetti
+   cd countdown-timer
    ```
 3. Open the `index.html` file in your preferred browser:
    ```bash
@@ -81,7 +80,7 @@ Or just double-click the `index.html` file in your file explorer to open it in y
 
 - **index.html**: The main HTML file that holds the structure of the page.
 - **style.css**: The CSS file for styling the page and countdown timer inputs.
-- **script.js**: The JavaScript file that handles the countdown logic and triggers the confetti effect.
+- **script.js**: The JavaScript file that handles the countdown logic.
 
 ## Contributions
 
