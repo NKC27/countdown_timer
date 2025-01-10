@@ -59,9 +59,11 @@ h1 {
             background-color: #f0f2f5;
             background-image: url('https://cdn.pixabay.com/photo/2020/02/11/10/24/lake-4839058_1280.jpg');
             display: flex;
+            background-size: cover;
+            background-position: center center;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             color: #333;
         }
